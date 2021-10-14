@@ -1,6 +1,117 @@
-<h1>wow</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $(".headC").click(function() {
+                $(".headB").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body class="nohero">
+    <header>
+        <div class="container">
+            <div class="container-small">
+                <a href="../index.html" class="headA">LOGGER</a>
+                <button type="button" class="headC">
+                    <span class="fa fa-bars" title="menu"></span>
+                </button>
+        </div>
+            <nav class="headB">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="html/contents.html">Contents</a></li>
+                    <li><a href="#">Log</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article class="post">
+        <div class="container">
+            <h1>문의</h1>
+            <p>LOGGER에 문의가 있다면 다음 연락처로 문의해주셈 ㅋㅋㅋ</p>
 
-<p>오늘은 참 좋다</p>
-<br>
-<p>HELLO</P>
-<hr>
+            <div class="contact-wrap">
+                <div class="contact">
+                    <span class="fa fa-phone"></span>
+                    <h2>전화</h2>
+                    <a href="tel:00012345677">000-1234-5677</a>
+                </div>
+                <div class="contact">
+                    <span class="fa fa-envelope"></span>
+                    <h2>이메일</h2>
+                    <a href="mailto:contact@logger.net">contact@logger.net</a>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <aside class="location">
+        <h2>LOCATION</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.1647805502325!2d127.04262391538448!3d37.73927827976601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc730e7a0a4e5%3A0xcea407a2baced2ee!2z7J207KCg7Lu07ZOo7YSw7ZWZ7JuQIOydmOygleu2gOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1634182061527!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </aside>
+    <footer id="contact">
+        <div class="container">
+            <div class="footA">
+                <h2>LOGGER</h2>
+                <p>주소: IT 전문 출판사<br>
+                    <a href="http://logger.net">http://logger.net</a>
+                </p>
+                <nav class="footD">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-twitter" title="twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook" title="facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus" title="google-plus"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram" title="instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube" title="youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="footB">
+                <div>
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="#">설립</a></li>
+                        <li><a href="#">주소</a></li>
+                        <li><a href="#">지도</a></li>
+                        <li><a href="#">스태프</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="#">다운로드</a></li>
+                        <li><a href="#">주소</a></li>
+                        <li><a href="#">지도</a></li>
+                        <li><a href="#">문의</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTENTS</h3>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">주소</a></li>
+                        <li><a href="#">지도</a></li>
+                        <li><a href="#">스태프</a></li>
+                        <li><a href="#">블로그</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footC">
+                <address>&copy; LOGGER corp. All rights Reserved.</address>
+            </div>
+        </div>    
+    </footer> 
+</body>
+</html>
